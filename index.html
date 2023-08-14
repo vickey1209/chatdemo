@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat application</title>
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="chatsection">
+        <div class="brand">
+            <img height="40" src="/watsap.png" alt="">
+            <h1> Chat Application</h1>
+        </div>
+        <div class="messagearea">
+            <!-- <div class="incoming message">
+                <h4>vickey</h4>
+                <!-- <p>Lorem ipsum dolor</p> -->
+            <!-- </div> -->
+            <!-- <div class="outgoing message">
+                <h4>rakesh</h4> -->
+                <!-- <p>Lorem ipsum dolor sit,  </p>
+                <p>Lorem ipsum dolor sit,  </p>
+                <p>Lorem ipsum dolor sit,  </p>
+                <p>Lorem ipsum dolor sit,  </p>  
+                <p>Lorem ipsum dolor sit,  </p>  
+                <p>Lorem ipsum dolor sit,  </p>  
+                <p>Lorem ipsum dolor sit,  </p>   -->
+            <!-- </div>  -->
+        </div>
+
+
+        <div>
+            <form action="#" id="send-container">
+                <input type="text" name="messageinp" id="messageinp" placeholder="write ur message">
+                <button class="btn" type="submit">send</button>
+            </form>
+
+        </div>
+
+    </section>
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script src="/client.js"></script>
+</body>
+
+</html>

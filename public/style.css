@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(61, 161, 168);
+    font-family: 'roboto', sans-serif;
+}
+
+section.chatsection {
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.brand {
+    padding: 20px;
+    background: rgb(62, 111, 156);
+    color: #9c7575;
+    display: flex;
+    align-items: center;
+}
+
+.brand.h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: azure;
+    margin-left: 10px;
+
+}
+
+.messagearea {
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+
+textarea {
+    width: 100%;
+    border: rgb(120, 100, 108);
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #ebe3e3;
+}
+
+.message {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+
+}
+
+.incoming {
+    background: #66a3ae;
+    color: #101b1a;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.outgoing {
+    background: #649292;
+    color: #142023;
+    margin-left: 95%;
+    margin-bottom: 10px;
+
+}
+
+.message h4 {
+    position: absolute;
+    top: -20px;
+    font-size: 14px;
+    left: 0;
+    color: #333;
+
+}
+
+#sendcontainer {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+#messageinp {
+    width: 92%;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+.btn {
+    width: 7%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb);
+}
